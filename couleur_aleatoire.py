@@ -11,14 +11,14 @@ def couleur_aleatoire():
     
     '''
 
-    i = randint(1, 50)
+    i = randint(1, 10)
     if i==1: 
 
         rouge = 215
         vert = 186
         bleu = 206
     else:
-        
+
         rouge = randint(0, 255)
         vert = randint(0, 255)
         bleu = randint(0, 255)
