@@ -10,11 +10,13 @@ from random import randint
 def portes(x,y):
     if randint(1,2) == 1:
         # Porte rectangulaire
-        rectangle(x, y, 0, 70, couleur_aleatoire()  )
+        rectangle(x, y, 50, 70, couleur_aleatoire()  )
+        rue.rect_cap='square'
 
     else:
         # Porte arrondi
-        rue.fill_arc(x, y-20, 25, pi, pi)
+        rectangle(x, y, 50, 70, couleur_aleatoire()  )
+        rue.rect_cap='round'
     '''
     Dessine une porte de 50 pixels en largeur et 70 pixels en hauteur
     La forme du haut de la porte est aléatoirement rectangulaire ou arrondi
