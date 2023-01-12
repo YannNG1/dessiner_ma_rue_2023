@@ -13,6 +13,7 @@ def trait(x1,y1,x2,y2):
     
     '''
     rue.stroke_style = 'black'
+    rue.lineWidth=1
     rue.stroke_line(x1, y1, x2, y2)
 
 if __name__ == '__main__':
