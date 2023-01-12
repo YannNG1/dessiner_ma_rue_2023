@@ -26,17 +26,6 @@ def portes(x,y):
         y est l'ordonnée du sol du niveau de la porte        
     '''     
      
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 # Tests
 affiche(rue)
 for i in range(21) :
