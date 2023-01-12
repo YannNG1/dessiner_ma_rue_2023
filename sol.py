@@ -13,7 +13,7 @@ def sol():
     '''
 
     y_sol = rue.height-1 # ordonnée du sol de la rue
-    rue.lineWidth=10
+    rue.lineWidth=3
     trait(20,y_sol,780,y_sol)
 
 
