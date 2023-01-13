@@ -1,4 +1,4 @@
-# Dépendances
+    # Dépendances
 from ma_rue import rue, affiche
 from rectangle import rectangle
 
@@ -16,5 +16,9 @@ def fenetre(x,y):
         y est l'ordonnée du sol du niveau de la fenetre
     '''
     
-    
+    rectangle(x-15,y-30,30,30,'Azure')
+if __name__ == '__main__':
+    # Tests
+    affiche(rue)
+    fenetre(rue.width/2,rue.height)
     
