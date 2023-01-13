@@ -10,13 +10,14 @@ from random import randint
 def portes(x,y):
     if randint(1,2) == 1:
         # Porte rectangulaire
-        rectangle(x, y, 50, 70, couleur_aleatoire()  )
+        rectangle(x, y, 25, 35, couleur_aleatoire()  )
     else:
         # Porte arrondi
         couleur = couleur_aleatoire()
-        rectangle(x, y, 50, 50, couleur  )
+        rectangle(x, y, 25, 25, couleur  )
         rue.fill_style:couleur
-        rue.fill_arc(x, y - 50, 25, pi, 0 )
+        rue.fill_arc(x, y - 25, 13, pi, 0 )
+        rue.stroke_arc(x, y -25, 13, pi, 0)
     '''
     Dessine une porte de 50 pixels en largeur et 70 pixels en hauteur
     La forme du haut de la porte est aléatoirement rectangulaire ou arrondi
