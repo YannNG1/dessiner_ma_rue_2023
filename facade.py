@@ -14,13 +14,10 @@ def facade(x, couleur, niveau):
         couleur : couleur de la façade fixée par l'immeuble
         niveau : numéro du niveau (0 pour les rdc, ...)
     '''
-    couleur = couleur_aleatoire()
-    niveau = 0
     y = rue.height - niveau * 60 # ordonnée de la base de la facade
     for i in range(6):
-        niveau += i
         y = rue.height - niveau * 60
-        rectangle(x, y, 140, 60, couleur )
+        rectangle(x, y, 140, 60, couleur)
 
 
 
