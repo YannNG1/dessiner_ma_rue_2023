@@ -17,7 +17,9 @@ def portes(x,y):
         rectangle(x, y, 25, 25, couleur  )
         rue.fill_style:couleur
         rue.fill_arc(x, y - 25, 13, pi, 0 )
+        rue.line_width = 1
         rue.stroke_arc(x, y -25, 13, pi, 0)
+        rue.fill_rect(x - 11, y -25, 22, 10 )
     '''
     Dessine une porte de 50 pixels en largeur et 70 pixels en hauteur
     La forme du haut de la porte est aléatoirement rectangulaire ou arrondi
