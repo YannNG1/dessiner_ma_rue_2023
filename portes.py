@@ -25,9 +25,9 @@ def portes(x,y):
         couleur = couleur_aleatoire()
         rectangle(x, y, 25, 25, couleur  )
         rue.fill_style:couleur
-        rue.fill_arc(x, y - 25, 13, pi, 0 )
+        rue.fill_arc(x, y - 25, 12.5, pi, 0 )
         rue.line_width = 1
-        rue.stroke_arc(x, y -25, 13, pi, 0)
+        rue.stroke_arc(x, y -25, 12.5, pi, 0)
         rue.fill_rect(x - 11, y -25, 22, 10 )
   
 if __name__ == '__main__':
