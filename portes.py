@@ -28,7 +28,7 @@ def portes(x,y):
         rue.fill_arc(x, y - 25, 12.5, pi, 0 )
         rue.line_width = 1
         rue.stroke_arc(x, y -25, 12.5, pi, 0)
-        rue.fill_rect(x - 11, y -25, 22, 10 )
+        rue.fill_rect(x - 11.66, y -25, 23.33, 13 )
   
 if __name__ == '__main__':
     # Tests
