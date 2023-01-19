@@ -3,6 +3,7 @@ from ma_rue import rue, affiche
 from facade import facade
 from portes import portes
 from fenetre import fenetre
+from random import randint
 
 # Définitions
 
@@ -16,16 +17,25 @@ def rdc(x, couleur):
         couleur : couleur fixée par l'immeuble        
     '''
     # Dessine la facade
-    
+    facade(x, couleur, 0)
     
     # Choix d'une distribution
     distribution = randint(1,3)
+    if  distribution == 1:
+        portes(x,399)
+        fenetre(x-, 390)
+        fenetre(x+22.5, 390)
     
+    elif distribution == 2:
+        fenetre(x, 390)
+        portes(x-22.5,399)
+        fenetre(x+22.5, 390)
+
+    else:
+        fenetre(x, 390)
+        fenetre(x-22.5, 390)
+        portes(x+22.5,399)
     
-        # dessiner une porte
-    
-    
-        # dessiner une fenetre
 if __name__ == '__main__':
     # Tests
     from couleur_aleatoire import couleur_aleatoire
