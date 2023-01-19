@@ -23,7 +23,7 @@ def rdc(x, couleur):
     distribution = randint(1,3)
     if  distribution == 1:
         portes(x,399)
-        fenetre(x-, 390)
+        fenetre(x-22.5, 390)
         fenetre(x+22.5, 390)
     
     elif distribution == 2:
