@@ -14,9 +14,9 @@ def toit1(x, niveau):
     '''
     y = rue.height - niveau * 60 # ordonnée de la base du toit
     rue.begin_path()
-    rue.move_to(x-70,y)  
+    rue.move_to(x-80,y)  
     rue.line_to(x,y-40)
-    rue.line_to(x+70, y)
+    rue.line_to(x+80, y)
     rue.close_path()
     rue.stroke()
     rue.fill_style = "black"

@@ -32,9 +32,10 @@ def etage(x, couleur, niveau):
             balcon(x,y)
             x = x + 140/3
 
+if __name__ == '__main__':
     # Tests
-from couleur_aleatoire import couleur_aleatoire
-affiche(rue)
-couleur = couleur_aleatoire()
-for n in range(6) :
-    etage(rue.width/2,couleur,n)
+    from couleur_aleatoire import couleur_aleatoire
+    affiche(rue)
+    couleur = couleur_aleatoire()
+    for n in range(6) :
+        etage(rue.width/2,couleur,n)
