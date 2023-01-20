@@ -18,23 +18,31 @@ def rdc(x, couleur):
     '''
     # Dessine la facade
     facade(x, couleur, 0)
-    
+    a= 0
     # Choix d'une distribution
     distribution = randint(1,3)
     if  distribution == 1:
-        portes(x,399)
-        fenetre(x-22.5, 390)
-        fenetre(x+22.5, 390)
+        a = x + 140/3
+        portes(a,399)
+        b= x - 140/3
+        fenetre(b, 390)
+        fenetre(x, 390)
+        
     
     elif distribution == 2:
-        fenetre(x, 390)
-        portes(x-22.5,399)
-        fenetre(x+22.5, 390)
+        portes(x,399)
+        b= x - 140/3
+        fenetre(b, 390)
+        a = x + 140/3
+        fenetre(a, 390)
 
     else:
+        a = x - 140/3
+        portes(a,399)
+        b= x + 140/3
+        fenetre(b, 390)
         fenetre(x, 390)
-        fenetre(x-22.5, 390)
-        portes(x+22.5,399)
+        
     
 if __name__ == '__main__':
     # Tests
