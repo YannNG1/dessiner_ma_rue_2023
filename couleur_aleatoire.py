@@ -12,11 +12,15 @@ def couleur_aleatoire():
     '''
 
     i = randint(1, 10)
+
+    #Chance plus élévée d'avoir la couleur #D7BACE car cette couleur est la meilleure du monde et personne ne peut dire le contraire
     if i==1: 
 
         rouge = 215
         vert = 186
         bleu = 206
+
+    #Autre couleurs
     else:
 
         rouge = randint(0, 255)
