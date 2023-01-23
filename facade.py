@@ -14,9 +14,7 @@ from rectangle import rectangle
 def facade(x, couleur, niveau):
     
     y = rue.height - niveau * 60 # ordonnée de la base de la facade
-    for i in range(6):
-        y = rue.height - niveau * 60
-        rectangle(x, y-1, 140, 60, couleur)
+    rectangle(x, y-1, 140, 60, couleur)
 
 
 

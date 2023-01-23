@@ -1,0 +1,18 @@
+trait.py Y
+couleur_aleatoire.py M
+rectangle.py Y
+toit1.py M
+
+sol.py Y
+fenetre.py M
+balcon.py Y
+portes.py M
+toit2.py Y
+toits.py M
+facade.py Y
+
+rdc.py M
+etage.py Y
+immeuble.py M
+
+rue_finale.py Y
