@@ -24,14 +24,14 @@ def etage(x, couleur, niveau):
     # Murs
     facade(x, couleur, niveau)
     # Eléments
-    a = x - 140/3
+    x = x - 140/3
     for u in range(3):
         if randint(1,2) == 1:
-            fenetre(a, y-20)
-            a = x + 140/3
+            fenetre(x, y-20)
+            x = x + 140/3
         else: 
-            balcon(a,y)
-            a = x + 140/3
+            balcon(x,y)
+            x = x + 140/3
 
 if __name__ == '__main__':
     # Tests
