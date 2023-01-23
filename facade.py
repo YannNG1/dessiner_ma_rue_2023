@@ -18,10 +18,10 @@ def facade(x, couleur, niveau):
 
 
 
-
-# Tests
-from couleur_aleatoire import couleur_aleatoire
-affiche(rue)
-couleur = couleur_aleatoire()
-for n in range(6) :
-    facade(rue.width/2, couleur, n)
+if __name__ == '__main__':
+    # Tests
+    from couleur_aleatoire import couleur_aleatoire
+    affiche(rue)
+    couleur = couleur_aleatoire()
+    for n in range(6) :
+        facade(rue.width/2, couleur, n)
