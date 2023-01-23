@@ -14,9 +14,9 @@ def rue_finale(canvas):
     
     # Dessin des immeubles
     immeuble(130)
-    immeuble(300)
-    immeuble(470)
-    immeuble(640)
+    immeuble(305)
+    immeuble(480)
+    immeuble(655)
     
         
     # Dessin du sol de la rue

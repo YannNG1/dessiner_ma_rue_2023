@@ -18,7 +18,7 @@ def immeuble(x):
         
     '''
     # Nombre d'étage (aléatoire)
-    niveau = randint(1, 4)
+    niveau = randint(0, 4)
     
 
     #Couleur facade (aléatoire)
