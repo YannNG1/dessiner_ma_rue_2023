@@ -6,7 +6,10 @@ from balcon import balcon
 from random import randint
 
 # Définitions
-'''
+
+# Fonction etage()
+def etage(x, couleur, niveau):
+    '''
     Dessine sur une facade un étage avec 3 éléments choisis aléatoirement
     parmi une fenêtre ou une porte fenêtre avec balcon.  
     
@@ -14,9 +17,7 @@ from random import randint
         x : abscisse du milieu de la base de l'étage
         couleur : couleur fixée par l'immeuble
         niveau : numéro de l'étage en partant de 0 pour le rdc
-'''
-# Fonction etage()
-def etage(x, couleur, niveau):
+    '''
 
     y = rue.height - niveau * 60 # ordonnée de la base de l'etage
     
